@@ -15,6 +15,7 @@ const footer = () => {
        <div className='iconfooter'  >
          <Link to='/'>
         <AiFillHome style={{height:'30px',width:'30px'}} />
+         
          </Link>
        </div>
        <div className='iconfooter'>

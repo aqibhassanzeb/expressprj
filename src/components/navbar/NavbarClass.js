@@ -13,10 +13,10 @@ const NavbarClass = () => {
   
 
      <div className='col-4'  >
-          <AiFillBell/>
+          <AiFillBell style={{height:'23px',width:'23px'}} />
        </div>
        <div className='col-4' >
-           <img src={pic} style={{height:"30px",}}/>
+           <img src={pic} style={{height:"40px",width:'100px'}}/>
        </div>
        <div className='col-4 ' >
         

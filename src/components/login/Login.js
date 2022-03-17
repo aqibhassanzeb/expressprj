@@ -5,7 +5,7 @@ import './Login.css'
 const Login = () => {
   return (
     <div className='container-fluid maindivlogin' style={{backgroundColor:'#23a4d3'}}>
-        <div className='row  wellcometologin'>
+        <div className='row  wellcometologin  ' style={{marginTop:'55px'}}>
              Well come
         </div>
         <div className='row textfieldcontainerlogindiv mt-5'>
