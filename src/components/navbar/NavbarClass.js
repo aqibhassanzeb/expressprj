@@ -3,6 +3,7 @@ import { AiFillBell } from 'react-icons/ai';
 import { Container, Navbar } from 'react-bootstrap'
 import pic from '../../assets/navbarlogo.png'
 import './NavbarClass.css'
+import { Link } from 'react-router-dom';
 const NavbarClass = () => {
   return (
     <div className='contianer-fluid fixed-top'>
@@ -13,10 +14,14 @@ const NavbarClass = () => {
   
 
      <div className='col-4'  >
-          <AiFillBell style={{height:'23px',width:'23px'}} />
+       <Link to='/login' style={{textDecoration:'none'}}>
+          <AiFillBell style={{height:'22px',width:'22px',color:'black'}} />
+       </Link>
        </div>
        <div className='col-4' >
+         <Link to='/'>
            <img src={pic} style={{height:"40px",width:'100px'}}/>
+         </Link>
        </div>
        <div className='col-4 ' >
         

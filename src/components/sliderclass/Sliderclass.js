@@ -11,7 +11,7 @@ const Sliderclass = () => {
       className="d-block w-100"
       src={pic}
       alt="First slide"
-   style={{height:'60vh'}} />
+   style={{height:'50vh'}} />
     
   </Carousel.Item>
   <Carousel.Item>
@@ -19,7 +19,7 @@ const Sliderclass = () => {
       className="d-block w-100"
       src={pic2}
       alt="Second slide"
-      style={{height:'60vh'}}
+      style={{height:'50vh'}}
    />
 
     

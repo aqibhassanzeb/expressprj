@@ -1,19 +1,24 @@
 .footerfulldiv{
     background-color: #c1f4fa;
-    height: 65px;
+    height: 50px;
 }
 .iconfooter{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    
+}
+.iconfooter1{
+    display: flex;
+    justify-content: center;
+    
 }
 .handiconandtextfooter{
     
     z-index: 1;
     background-color: rgb(120, 235, 247);
-    border-radius: 30%;
+    border-radius: 20px 20px 0px 0px;
     box-shadow: 1px 1px 10px 1px rgb(51, 50, 50);
-    height: 63px;
+    height: 97%;
 }
 .fahandspockfooter{
     height: 20px;
@@ -22,14 +27,14 @@
 
 @media only screen and (max-width: 576px) {
     .fulldivoffooter{
-        height: 80px;
+        height: 70px;
     }  
     .fahandspockfooterdiv{
         padding-top: 10px;
     }
     .fahandspockfooter{
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: 20px;
     }
     .handiconandtextfooter{
         z-index: 1;
@@ -40,6 +45,15 @@
     }
     .footerfulldiv{
         height: auto;
+    }
+    .iconsizefooter{
+        height: 20px;
+        width: 20px;
+        margin-top: 5px;
+
+    }
+    .iconfooter{
+        margin-top: 5px;
     }
 
 }

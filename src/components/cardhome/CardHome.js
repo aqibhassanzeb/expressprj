@@ -84,19 +84,31 @@ const CardHome = () => {
     <div className='marqueedivcardhome'>
     <img src={pic4} style={{width:'40px',height:'40',borderRadius:'50%'}}/>
 <h5>
-Congratulation this is amazing
+Congratulation****kndk to earn 1.6723!
 </h5>
     </div>
-    <div className='marqueedivcardhome'>
-    <img src={pic4} style={{width:'40px',height:'40',borderRadius:'50%'}}/>
+    <div className='marqueedivcardhome mt-3'>
+    <img src={pic} style={{width:'40px',height:'40',borderRadius:'50%'}}/>
 <h5>
-Congratulation this is amazing
+Congratulation****kndk to earn 1.523!
 </h5>
     </div>
-    <div className='marqueedivcardhome'>
+    <div className='marqueedivcardhome mt-3'>
+    <img src={pic2} style={{width:'40px',height:'40',borderRadius:'50%'}}/>
+<h5>
+Congratulation****kndk to earn 5.432!
+</h5>
+    </div>
+    <div className='marqueedivcardhome mt-3'>
+    <img src={pic3} style={{width:'40px',height:'40',borderRadius:'50%'}}/>
+<h5>
+Congratulation****kndk to earn 7.432!
+</h5>
+    </div>
+    <div className='marqueedivcardhome mt-3'>
     <img src={pic4} style={{width:'40px',height:'40',borderRadius:'50%'}}/>
 <h5>
-Congratulation this is amazing
+Congratulation****kndk to earn 1.9723!
 </h5>
     </div>
 </marquee>

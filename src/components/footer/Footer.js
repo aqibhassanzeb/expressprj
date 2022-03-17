@@ -14,7 +14,7 @@ const footer = () => {
         <div className='col-2'>
        <div className='iconfooter'  >
          <Link to='/'>
-        <AiFillHome style={{height:'30px',width:'30px'}} />
+        <AiFillHome className='iconsizefooter' />
          
          </Link>
        </div>
@@ -25,7 +25,7 @@ const footer = () => {
         <div className='col-2'>
        <div className='iconfooter' >
        <Link to='/login'>
-        <BsBorderWidth style={{height:'30px',width:'30px'}} />
+        <BsBorderWidth className='iconsizefooter' />
         </Link>
        </div>
        <div className='iconfooter'>
@@ -34,7 +34,7 @@ const footer = () => {
         </div>
         <div className='col-2 handiconandtextfooter'>
           
-       <div className='iconfooter fahandspockfooterdiv' >
+       <div className='iconfooter1 fahandspockfooterdiv' >
        <Link to='/login'>
         <FaHandSpock className='fahandspockfooter' />
         </Link>
@@ -46,7 +46,7 @@ const footer = () => {
         <div className='col-2'>
        <div className='iconfooter' >
        <Link to='/online'>
-        <HiStatusOnline style={{height:'30px',width:'30px'}} />
+        <HiStatusOnline className='iconsizefooter' />
        </Link>
        </div>
        <div className='iconfooter'>
@@ -56,7 +56,7 @@ const footer = () => {
         <div className='col-2'>
        <div className='iconfooter' >
        <Link to='/login'>
-        <MdPersonPin style={{height:'30px',width:'30px'}} />
+        <MdPersonPin className='iconsizefooter' />
       </Link>
        </div>
        <div className='iconfooter'>

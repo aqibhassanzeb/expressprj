@@ -5,7 +5,7 @@ import Sliderclass from '../sliderclass/Sliderclass'
 
 const Home = () => {
   return (
-    <div style={{background:'lightgray',marginBottom:'80px',marginTop:'52px'}}>
+    <div style={{background:'lightgray',marginBottom:'50px',marginTop:'52px'}}>
         <Sliderclass/>
         <Homebtn/>
         <CardHome/>
