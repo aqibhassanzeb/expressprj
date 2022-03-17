@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillBell } from 'react-icons/ai';
 import { Container, Navbar } from 'react-bootstrap'
-import pic from '../../assets/navbarlogo.png'
+import pic from '../../assets/joomcat.png'
 import './NavbarClass.css'
 import { Link } from 'react-router-dom';
 const NavbarClass = () => {
@@ -20,7 +20,7 @@ const NavbarClass = () => {
        </div>
        <div className='col-4' >
          <Link to='/'>
-           <img src={pic} style={{height:"40px",width:'100px'}}/>
+           <img src={pic} style={{height:"40px",width:'100px',borderRadius:'10px'}}/>
          </Link>
        </div>
        <div className='col-4 ' >
