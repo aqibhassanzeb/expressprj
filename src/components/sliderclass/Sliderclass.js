@@ -1,7 +1,7 @@
 import { Carousel } from 'react-bootstrap'
 import React from 'react'
-import pic from '../../assets/slider1.jpg'
-import pic2 from '../../assets/slider2.jpg'
+import pic from '../../assets/sohrab.png'
+import pic2 from '../../assets/sohrab2.png'
 const Sliderclass = () => {
   return (
     <div>
