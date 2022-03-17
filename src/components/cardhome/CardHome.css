@@ -1,0 +1,30 @@
+.cardsdivcardhome{
+    background: rgba(144, 144, 146, 0.58);
+
+}
+.cardsdivcardhome{
+    margin-top: 20px;
+    height: 220px;
+    width: 250px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.cardsdivcardhomediv{
+    display: flex;
+    justify-content: center;
+}
+.cardsdivcardhomeimgdiv{
+    margin-top: 10px;
+}
+.textcardhome{
+    font-size: 18px;
+    font-weight: 700;
+}
+.marqueedivcardhome{
+    display: flex;
+    justify-content: space-around;
+}
+.marqueeupertextcardhome{
+    text-align: center;
+}
