@@ -14,7 +14,7 @@ const CardHome = () => {
         </h4>
         </div>
         <div className='row cardsdivcardhomefullrow'>
-        <div className='col-lg-4 col-md-6 col-sm-6 '>
+        <div className='col-lg-4 col-md-6 col-6'>
       <div className='cardsdivcardhomediv'>
 
         <div className='cardsdivcardhome'>
@@ -34,7 +34,7 @@ const CardHome = () => {
         </div>
       </div>
         </div>
-        <div className='col-lg-4 col-md-6 col-sm-6 '>
+        <div className='col-lg-4 col-md-6 col-6 '>
       <div className='cardsdivcardhomediv'>
 
         <div className='cardsdivcardhome'>
@@ -54,7 +54,7 @@ const CardHome = () => {
         </div>
       </div>
         </div>
-        <div className='col-lg-4 col-md-6 col-sm-6 '>
+        <div className='col-lg-4 col-md-6 col-6 '>
       <div className='cardsdivcardhomediv'>
 
         <div className='cardsdivcardhome'>
@@ -75,6 +75,7 @@ const CardHome = () => {
       </div>
         </div>
  </div>
+ <div className='notificationfulldivcardhome'>
     <div className='row mt-3 marqueeupertextcardhome'>
         <h4>User Commission Notifications</h4>
     </div>
@@ -113,7 +114,7 @@ Congratulation****kndk to earn 1.9723!
     </div>
 </marquee>
  </div>
-
+ </div>
     </div>
   )
 }

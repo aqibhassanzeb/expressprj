@@ -41,3 +41,9 @@ text-align: center;
 .secondbtnrechargediv{
    text-align: center;
 }
+@media only screen and (max-width:576px) {
+    .pichomebtn{
+        height: 80%;
+        width: 80%;
+    } 
+}

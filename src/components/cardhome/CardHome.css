@@ -28,3 +28,16 @@
 .marqueeupertextcardhome{
     text-align: center;
 }
+.notificationfulldivcardhome{
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    /* border: red solid; */
+    margin-top: 30px;
+}
+@media only screen and (min-width: 576px) {
+.notificationfulldivcardhome{
+    margin-bottom: 0px;
+    
+}
+}
